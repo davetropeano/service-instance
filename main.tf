@@ -1,4 +1,6 @@
-provider "ibm" {}
+provider "ibm" {
+  ibmcloud_api_key = "${var.ibmcloud_api_key}"
+}
 
 data "ibm_space" "spacedata" {
   space = "${var.space}"

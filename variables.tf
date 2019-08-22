@@ -1,3 +1,5 @@
+variable "ibmcloud_api_key" {}
+
 variable "space" {
   default = "dev"
 }
